@@ -1,0 +1,2 @@
+ALTER TABLE `library`.`book`
+ADD COLUMN `detail` VARCHAR(1024) NULL DEFAULT NULL AFTER `type`;
